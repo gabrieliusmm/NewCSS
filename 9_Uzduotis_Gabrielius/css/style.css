@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+.container-fluid {
+	background-color: white;
+}
+header h1 {
+	display: inline-block;
+
+}
+#io {
+	font-weight: bold;
+	color:#8d81ac;
+}
+#fork {
+	font-weight: bold;
+	color:#333333;
+}
+
+#buynow2 {
+	color:white;
+	font-weight: bold;
+	background-color: #8d81ac;
+	padding: 10px 35px 10px 35px;
+	text-align: center;
+	border-radius: 25px;
+}
+
+header {
+	height: 100px;
+	background-color: white;
+}
+
+header i {
+	color:#8d81ac;
+	font-size: 2.2em;
+	margin: 30px;
+}
+header ul {
+	list-style-type: none;
+	text-align: center;
+}
+header ul li {
+	font-weight: bold;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+header li a {
+	color:#635c73;
+}
+
+.introduce {
+	background: url(../pictures/macbook.png) no-repeat center;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 800px;
+}
+.introduce h1 {
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 5em;
+	color:white;
+}
+.introduce h2 {
+	font-weight: bold;
+	color:#8f7194;
+}
+.introduce h3 {
+	font-weight: bold;
+	color:#887c83;
+	font-size: 1.3em;
+}
+#intro1 {
+	text-align: center;
+}
+.downloadsec {
+	height: 400px;
+	background-color: white;
+}
+.downloadsec h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
+	color: #80687b;
+}
