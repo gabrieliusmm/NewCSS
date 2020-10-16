@@ -74,13 +74,37 @@ header li a {
 #intro1 {
 	text-align: center;
 }
-.downloadsec {
+.downloadsection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	justify-content: center;
 	height: 400px;
 	background-color: white;
 }
-.downloadsec h1 {
+.downloadsection h1 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 4em;
 	color: #80687b;
+}
+.downloadsection p {
+	text-align: center;
+	font-size: 1.5em;
+	color: #7a6768;
+}
+.threebtns {
+	margin: 25px;
+}
+.threebtns img {
+	margin: 0px 10px 0px 10px;
+}
+
+.features {
+	height: 710px;
+	background-color: #f4e1e2;
+}
+.features img {
+	width:7%;
+	margin-left: 50px;
 }
