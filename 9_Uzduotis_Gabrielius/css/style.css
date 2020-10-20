@@ -105,6 +105,47 @@ header li a {
 	background-color: #f4e1e2;
 }
 .features img {
-	width:7%;
-	margin-left: 50px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#whatugettext {
+	margin: 50px;
+}
+#whatugetpic {
+	margin-left: 100px;
+}
+.social {
+	height: 600px;
+}
+.author {
+	margin-top:80px;
+	display: flex;
+	justify-content: center;
+}
+.socialbuttons {
+	text-align: center;
+}
+.comments {
+	margin:50px;
+	text-align: center;
+}
+.comments p {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.media {
+	color: #635c73;
+}
+
+#arrows {
+	font-size: 30px;
+	color:black;
+}
+.testimonials {
+	background: url(../pictures/testimonialsbackground.png) no-repeat center;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 760px;
 }
