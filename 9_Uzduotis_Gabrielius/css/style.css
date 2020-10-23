@@ -1,7 +1,12 @@
+
 * {
 	box-sizing: border-box;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 .container-fluid {
 	background-color: white;
 }
@@ -18,17 +23,17 @@ header h1 {
 	color:#333333;
 }
 
-#buynow2 {
-	color:white;
+.btn-buynow {
 	font-weight: bold;
 	background-color: #8d81ac;
 	padding: 10px 35px 10px 35px;
 	text-align: center;
 	border-radius: 25px;
+	color: white;
 }
 
 header {
-	height: 100px;
+	/* height: 100px; */
 	background-color: white;
 }
 
@@ -51,14 +56,15 @@ header li a {
 }
 
 .introduce {
+	margin: 0px;
 	background: url(../pictures/macbook.png) no-repeat center;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 800px;
+	/* height: 800px; */
 }
 .introduce h1 {
-	margin-top: 60px;
+	margin-top: 100px;
 	font-weight: bold;
 	font-size: 5em;
 	color:white;
@@ -71,6 +77,7 @@ header li a {
 	font-weight: bold;
 	color:#887c83;
 	font-size: 1.3em;
+	margin-bottom: 400px;
 }
 #intro1 {
 	text-align: center;
@@ -80,7 +87,7 @@ header li a {
 	flex-direction: column;
 	align-items: center;	
 	justify-content: center;
-	height: 400px;
+	/* height: 400px; */
 	background-color: white;
 }
 .downloadsection h1 {
@@ -95,15 +102,21 @@ header li a {
 	color: #7a6768;
 }
 .threebtns {
-	margin: 25px;
+	margin: 60px;
 }
 .threebtns img {
 	margin: 0px 10px 0px 10px;
 }
-
-.features {
-	height: 710px;
+.test {
+	margin-top: 50px;
 	background-color: #f4e1e2;
+}
+.feature {
+	background-color: #f4e1e2;
+}
+.features {
+	/* height: 710px; */
+	margin-top: 50px;
 }
 .features img {
 	margin-bottom: 5px;
@@ -117,7 +130,7 @@ header li a {
 	margin-left: 100px;
 }
 .social {
-	height: 600px;
+	/* height: 600px; */
 }
 .author {
 	margin-top:80px;
@@ -126,6 +139,7 @@ header li a {
 }
 .socialbuttons {
 	text-align: center;
+	margin: 50px;
 }
 .comments {
 	margin:50px;
@@ -148,7 +162,7 @@ header li a {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 760px;
+	/* height: 760px; */
 	text-align: center;
 	color: white;
 	font-weight: bold;
@@ -177,13 +191,13 @@ header li a {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 1000px;
+	/* height: 1100px; */
 	text-align: center;
 	color: white;
 	font-weight: bold;
 }
 .pricing h1 {
-	margin: 50px;
+	margin: 45px;
 }
 .card {
 	background-color: rgba(105,88,107,0.2);
@@ -220,8 +234,8 @@ header li a {
 	flex-direction: column;
 	justify-content: center;
 	height: 100%;
-	margin-bottom: 15px;
-	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	text-align: center;
 	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 	color: #fff;
@@ -232,9 +246,10 @@ header li a {
 	height: 100%;
 	background-color: rgba(96, 82, 99, 0.1);
 	list-style: none;
-	margin: 0;
+	margin: 25px 25px 25px 25px;
 	text-align: center;
 	padding-left: 0px;
+	
 }
 
 .pricing-list-eleven ul li {
@@ -267,14 +282,14 @@ header li a {
 }
 .pricing-list-eleven hr {
 	width: 15%;
-	height: 8px;
+	/* height: 8px; */
 	background-color:#8d81ac;
 }
 
 .pricing-list-eleven .price-footer {
 }
 .subscription {
-	height: 150px;
+	/* height: 150px; */
 	background-color: #f4f4f4;
 }
 .subscription h1 {
@@ -293,7 +308,7 @@ header li a {
 }
 
 .links {
-	height: 640px;
+	/*height: 640px; */
 	background-color: white;
 	text-align: center;
 }
@@ -312,12 +327,13 @@ header li a {
 	color: #8d81ac;
 }
 footer {
-	height: 325px;
+	/*height: 325px; */
 }
 footer ul {
 	list-style-type: none;
 }
 #footersm {
+
 	color: #848e97;
 	font-size: 1em;
 }
@@ -330,7 +346,7 @@ footer img {
 #linkshr {
 	margin-bottom: 60px;
 	width: 75%;
-	height: 8px;
+	/* height: 8px; */
 }
 #pricingendtext {
 	margin:0 auto;
